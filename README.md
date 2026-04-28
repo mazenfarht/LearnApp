@@ -50,21 +50,24 @@ This project simulates a real LMS system like online learning platforms.
 
 ## 📂 Project Structure
 
-LMS-Project/
-│─VideoLectures
-├──── VideoLec.html
-├──── VideoLec.css
-├──── VideoLec.js
+LearnApp/
 │
-│──TrackLearning
-├──── TrackLear.html
-├──── TrackLear.css
-├──── TrackLear.js
+├── index.html
 │
-│──StudentDiscussion
-├──── StudentDisc.html
-├──── StudentDisc.css
-├──── StudentDisc.js
+├── VideoLectures/
+│ ├── VideoLec.html
+│ ├── VideoLec.css
+│ ├── VideoLec.js
+│
+├── TrackLearning/
+│ ├── TrackLear.html
+│ ├── TrackLear.css
+│ ├── TrackLear.js
+│
+├── StudentDiscussion/
+│ ├── StudentDisc.html
+│ ├── StudentDisc.css
+│ ├── StudentDisc.js
 │
 └── README.md
 
