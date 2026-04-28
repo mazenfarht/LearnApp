@@ -61,10 +61,10 @@ LMS-Project/
 ├──── TrackLear.css
 ├──── TrackLear.js
 │
-│──VideoLectures
-├──── VideoLec.html
-├──── VideoLec.css
-├──── VideoLec.js
+│──StudentDiscussion
+├──── StudentDisc.html
+├──── StudentDisc.css
+├──── StudentDisc.js
 │
 └── README.md
 
