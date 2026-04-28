@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Video Lectures</title>
+    <link rel="stylesheet" href="VideoLec.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">📚 LearnApp</div>
+
+      <div class="links">
+        <a href="/VideoLectures/VideoLec.html">🎥 Videos</a>
+        <a href="/TrackLearning/TrackLear.html">📊 Progress</a>
+        <a href="/StudentDiscussion/StudentDisc.html">🏠 Home</a>
+      </div>
+    </nav>
+    <h1>🎥 Video Lectures</h1>
+
+    <div class="controls">
+      <input
+        type="text"
+        id="search"
+        placeholder="Search..."
+        onkeyup="searchVideos()"
+      />
+
+      <select id="filter" onchange="filterVideos()">
+        <option value="all">All</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+      </select>
+    </div>
+
+    <div id="videosContainer" class="videos-grid"></div>
+
+    <!-- Modal -->
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeVideo()">&times;</span>
+        <iframe id="videoFrame" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <script src="VideoLec.js"></script>
+  </body>
+</html>

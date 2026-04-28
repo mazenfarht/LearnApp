@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Forum</title>
+    <link rel="stylesheet" href="StudentDisc.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">📚 LearnApp</div>
+
+      <div class="links">
+        <a href="/VideoLectures/VideoLec.html">🎥 Videos</a>
+        <a href="/TrackLearning/TrackLear.html">📊 Progress</a>
+        <a href="/StudentDiscussion/StudentDisc.html">🏠 Home</a>
+      </div>
+    </nav>
+    <h1>🎓 Student Discussion Forum</h1>
+
+    <div class="add-post">
+      <input type="text" id="name" placeholder="Your Name" />
+      <textarea id="content" placeholder="Write your question..."></textarea>
+      <button onclick="addPost()">Add Post</button>
+    </div>
+
+    <div id="postsContainer"></div>
+
+    <script src="StudentDisc.js"></script>
+  </body>
+</html>
